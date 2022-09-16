@@ -1,0 +1,61 @@
+
+
+body {
+    background: #eee3e7;
+    font-family: 'Hind Madurai', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #f6abb6;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #f4b6c2;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #f4b6c2;
+    text-align: center;
+}
+
+button {
+    color: #ffff;
+    background:  #ead5dc;
+    margin-top: 20px;
+    text-transform: uppercase;
+    padding: 16px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+input {
+    border-radius: 10px;
+    border-color: #f4b6c2;
+    height: 40px;
+}
+
+.parent {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    height: 60%;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
