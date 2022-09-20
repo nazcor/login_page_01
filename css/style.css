@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    cursor: default;
 }
 
 h1 {
@@ -22,23 +23,51 @@ h2 {
 
 h3 {
     color: #f4b6c2;
-    text-align: center;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: right;
 }
 
 button {
-    color: #ffff;
-    background:  #ead5dc;
-    margin-top: 20px;
     text-transform: uppercase;
     padding: 16px;
     border-radius: 20px;
     font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+    background: #ead5dc;
+}
+
+button[type=submit] {
+    margin-top: 10px;
+    color: #ffff;
+    background:  #f4b6c2;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
 }
 
 input {
     border-radius: 10px;
     border-color: #f4b6c2;
     height: 40px;
+    padding: 0 10px;
+}
+
+/* hr {
+    border: 0;
+    width: 100%;
+    background-color:#f6abb6;
+    height: 2px;
+    margin-top: 50px;
+} */
+
+img {
+    align-self: center;
+    margin-top: 25px;
 }
 
 .parent {
@@ -50,12 +79,11 @@ input {
 
 .container {
     background: #ffffff;
-    height: 60%;
-    width: 40%;
+    height: auto;
+    width: 400px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 0 50px;
+    padding: 30px 50px;
 }
